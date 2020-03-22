@@ -15,10 +15,9 @@
 	
 </head>
 
-<body >
+<body  >
 
-              <div class="container-fluid bg-dark header-top d-none d-md-block">
-            
+            <div class="container-fluid bg-dark header-top d-none d-md-block">
                 <div class="row text-light pt-2 pb-2">
                     <div class="col-md-2">
                         <i class="far fa-envelope"></i></i> bhargavi.poyekar@spit.ac.in
@@ -48,11 +47,120 @@
                     <div class="col-md-1" id="log-sign">
                         <a href="index.html"><button class="log-in"><i class="fas fa-home"></i> </button></a>
                     </div>
-                    
-                    
-                    
                 </div>
-              </div>
+            </div>
+
+            <div class="main">
+             <div class="container-fluid bg-light-gray" id="mainbody">
+					   	<div class="container mt-5 mb-5">
+							<div class="row no-gutters">
+
+								<div class="col-md-12">
+									<div class="card" id="posts">
+										<div class="card-header text-center"> 
+											<h6 style="color:#777777">Posted By {{username}} at <span id="date"></span></h6>
+											<h5 class="card-title" style="color:green ;font-variant:"> 
+												Meeru Island, North Atoll, Maldives
+											</h5> 
+										</div>
+										<div class="card-body"> 
+											<img class="card-img-top" src= "Images/travel-2.jpg"alt="Card image cap" height="500px"> 
+											<p class="card-text describe" > 
+												Travelers looking for a slice of paradise will want to book a visit to Meeru Island, the only resort on Meerufenfushi Island, North Male’ Atoll. This 1148 foot-long white sandy beach is ideal for sunbathing or snorkeling.
+
+												Getting there: Meeru Island is a 55-minute boat ride from Velana International Airport in Male.
+											</p>
+										</div> 
+										<div class="card-footer"> 
+					
+											<button class="post-btn float-left" id="vote"> 
+												  <i class="fas fa-comment-alt"></i>  Comment
+											</button>
+											
+											<button class="post-btn vote up float-left" id="vote">
+												<i class="fas fa-arrow-circle-up"></i>
+											</button> 
+											<button class="post-btn count float-left" id="vote">
+												 <div >4</div>
+											</button> 
+											<button class="post-btn vote down float-left "id="vote">
+												<i class="fas fa-arrow-circle-down"></i></i>
+											</button>
+
+											
+											<button class="post-btn float-right"id="vote" > 
+												  <i class="fas fa-share"></i></i> 
+											</button>
+											<button class="post-btn float-right" id="vote"> 
+												  <i class="fas fa-download"></i></i>  
+											</button>
+										</div> 
+
+										<div class="comment-section">
+											<textarea class="field" rows="4" cols="130" placeholder="Write your comment..."></textarea><br>
+											<button class="post-btn" > 
+												  Comment
+											</button>
+										</div> 
+
+										<div class="other-comments">
+											<div class="wrapper">
+											    <div class="left">
+											        <img src=" Images/default_user_img.png" alt="user" width="75">
+											    </div>
+											    <div class="right">
+											        <div class="info">
+											            <h6>Posted by </h6>
+											            <div class="info_data">
+											                 <div class="data">
+											                    <p>One of my favourite places :)</p>
+											                 </div>											             
+											            </div>
+											        </div>
+											    </div>
+											</div>
+
+											<div class="wrapper">
+											    <div class="left">
+											        <img src=" Images/default_user_img.png" alt="user" width="75">
+											    </div>
+											    <div class="right">
+											        <div class="info">
+											            <h6>Posted by </h6>
+											            <div class="info_data">
+											                 <div class="data">
+											                    <p>Heaven on Earth!!!!</p>
+											                 </div>											             
+											            </div>
+											        </div>
+											    </div>
+											</div>
+
+											<div class="wrapper">
+											    <div class="left">
+											        <img src=" Images/default_user_img.png" alt="user" width="75">
+											    </div>
+											    <div class="right">
+											        <div class="info">
+											            <h6>Posted by </h6>
+											            <div class="info_data">
+											                 <div class="data">
+											                    <p>I would love to be there...</p>
+											                 </div>											             
+											            </div>
+											        </div>
+											    </div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+			 </div>
+			</div>
+
+
   			<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
